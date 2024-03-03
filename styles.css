@@ -450,7 +450,9 @@ body.party-mode .contact a:hover{
 
 @media screen and (max-width: 900px){
 
-  
+    .mode-toggle{
+        margin: 12px auto;
+    }
 
     .splash{
         gap: 24px;
