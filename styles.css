@@ -101,18 +101,18 @@ a:hover{
 /* TOGGLE */
 
 .mode-toggle{
-    width: 250px;
-    margin: 32px auto;
+    width: 200px;
+    margin: 16px auto;
 }
 
 .toggle-options{
     display: flex;
     justify-content: space-between;
-    padding:  0px 12px 12px;
+    padding:  0px 8px 8px;
 }
 
 .toggler{
-    height: 48px;
+    height: 32px;
     border: 4px solid var(--clr-willow);
     border-radius: 50px;
     box-shadow: var(--bs-shadow-light);
@@ -124,8 +124,8 @@ a:hover{
 }
 
 .mode-option{
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     border: var(--clr-white) solid 10px;
     background-color: var(--clr-willow);
     border-radius: 50%;
@@ -133,8 +133,8 @@ a:hover{
 
 .selected-mode{
     border: none;
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 }
 
 .toggler input{
@@ -282,8 +282,8 @@ body.dark-mode .mode-option{
 
 body.dark-mode .selected-mode{
     border: none;
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 }
 
 body.dark-mode .profile-pic{
@@ -360,8 +360,8 @@ body.party-mode .mode-toggle{
 
 body.party-mode .selected-mode{
     border: none;
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 }
 
 body.party-mode .splash{
@@ -453,6 +453,7 @@ body.party-mode .contact a:hover{
     .mode-toggle{
         margin: 12px auto;
     }
+
 
     .splash{
         gap: 24px;
