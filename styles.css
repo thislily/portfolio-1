@@ -204,7 +204,7 @@ display: none;
 }
 
 .card img {
-    height: min-content;
+    height: auto;
 }
 
 .card-text{
