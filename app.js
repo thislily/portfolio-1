@@ -24,7 +24,7 @@ function toggleMode() {
             document.body.classList.add(modeValue);
 
             if (modeValue === "party-mode"){
-                document.querySelector(".profile-pic").src = "images/party-glasses.jpg"
+                document.querySelector(".profile-pic").src = "images/heart-glasses.jpg"
             } else {
                 document.querySelector(".profile-pic").src = "images/glasses.jpg"
             }

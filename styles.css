@@ -449,6 +449,10 @@ body.party-mode .contact a:hover{
 
 @media screen and (max-width: 900px){
 
+    h1{
+        max-width: 250px;
+    }
+
     .splash{
         gap: 24px;
     }
@@ -494,9 +498,6 @@ body.party-mode .contact a:hover{
         background-image: url(images/splash-blob-mid.svg);
     }
 
-    body.party-mode h1{
-        max-width: 90%;
-    }
 
     body.party-mode .portfolio{
         gap: 24px;
