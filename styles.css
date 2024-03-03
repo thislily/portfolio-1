@@ -450,6 +450,14 @@ body.party-mode .contact a:hover{
 
 @media screen and (max-width: 900px){
 
+    h1{
+        max-width: 250px;
+    }
+
+    h2{
+        max-width: 80%;
+    }
+
     .mode-toggle{
         margin: 12px auto;
     }
