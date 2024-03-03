@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Outfit:wght@100..900&family=Patrick+Hand&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/dc8689d417.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Lily Watson | Portfolio</title>
+  </head>
+  <body>
+    <div class="mode-toggle">
+      <div class="toggle-options">
+        <img src="images/sun.svg" alt="sun icon" />
+        <img src="images/moon.svg" alt="moon icon" />
+        <img src="images/party.svg" alt="party icon" />
+      </div>
+      <fieldset class="toggler">
+        <input type="radio" id="light-mode" name="mode" value="light-mode" />
+        <label
+          for="light-mode"
+          aria-label="light mode"
+          class="mode-option selected-mode"
+        ></label>
+
+        <input type="radio" id="dark-mode" name="mode" value="dark-mode" />
+        <label
+          for="dark-mode"
+          aria-label="dark mode"
+          class="mode-option"
+        ></label>
+
+        <input type="radio" id="party-mode" name="mode" value="party-mode" />
+        <label
+          for="party-mode"
+          aria-label="party mode"
+          class="mode-option"
+        ></label>
+      </fieldset>
+    </div>
+
+    <section class="splash">
+      <h1>Hi friend, I'm Lily!</h1>
+      <div class="welcome-p">
+        <img
+        class="profile-pic"
+          src="images/glasses.jpg"
+          alt="cartoon like profile image for Lily"
+        />
+        <p>
+          I'm an Oslo based junior Frontend Developer, with a passion for
+          crafting engaging web experiences. My journey is fuelled by curiosity
+          and a stubborn desire to know all the answers. Every project is a step
+          towards honing my skills and pushing myself to be a little better. As
+          I navigate the ever-evolving tech landscape, my goal is clear: to
+          grow, innovate, and make an impact. I'm always ready to dive into the
+          next challenge, transforming ideas into digital realities.
+        </p>
+      </div>
+
+      <div class="directory">
+        <a href="#contact">Contact Me</a>
+        <a href="#portfolio">See My Work</a>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>Here's some projects I've worked on:</h2>
+
+      <div class="card card-1">
+        <img
+          src="images/future-blonde-screenshot.jpg"
+          alt="a screenshot of the Future Blonde blog homepage"
+        />
+        <div class="card-text">
+          <h3>Future Blonde</h3>
+          <p>
+            A satirical post apocalyptic influencer-style blog, built using
+            Wordpress as a headless CMS.
+          </p>
+          <div class="links">
+            <a href="https://futureblonde.netlify.app">
+              <i class="fa-solid fa-link"></i>Visit Website</a
+            >
+            <a
+              href="https://github.com/Noroff-FEU-Assignments/project-exam-1-thislily"
+              ><i class="fa-brands fa-github"></i>See Github Repo</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-2">
+        <img
+          src="images/rainy-days-screenshot.jpg"
+          alt="a screenshot of the Rainy Days homepage"
+        />
+        <div class="card-text">
+          <h3>Rainy Days</h3>
+          <p>
+            A fictional jacket company's e-commerce website. Products are hosted
+            via a Wordpress headless CMS.
+          </p>
+          <div class="links">
+            <a href="https://rainydays-lily.netlify.app">
+              <i class="fa-solid fa-link"></i>Visit Website</a
+            >
+            <a href="https://github.com/thislily/Rainy_Days_v2"
+              ><i class="fa-brands fa-github"></i>See Github Repo</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-3">
+        <img
+          src="images/CSmuseum-screenshot.jpg"
+          alt="a screenshot of the Community Science Museum homepage"
+        />
+        <div class="card-text">
+          <h3>Community Science Museum</h3>
+          <p>
+            A fictional children's science museum website. Completely static
+            site.
+          </p>
+          <div class="links">
+            <a href="https://csmuseum-lily.netlify.app">
+              <i class="fa-solid fa-link"></i>Visit Website</a
+            >
+            <a href="https://github.com/thislily/Community-Science-Museum"
+              ><i class="fa-brands fa-github"></i>See Github Repo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Where to find me:</h2>
+        <p>I live in Oslo, but I'm always open to remote work.</p>
+        <div>
+          <p>Email:</p>
+          <a href="mailto:lilywatson.dev@gmail.com">lilywatson.dev@gmail.com</a>
+        </div>
+        <div>
+          <p>Github:</p>
+          <a href="https://github.com/thislily">https://github.com/thislily</a>
+        </div>
+
+        <div class="logos">
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-html5"></i>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
